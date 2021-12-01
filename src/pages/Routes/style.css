@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 50px;
+    background-color: #292929;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.headerContainer {
+    display: flex;
+}
+
+.logo {
+    padding-left: 20px;
+}
+
+.cartText, .loginText {
+    padding-right: 20px;
+}
+
+span {
+    font-size: 12px;
+    margin-right: 5px;
+    background-color: orange;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    color: black;
+}
